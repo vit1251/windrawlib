@@ -151,7 +151,7 @@ MainWinProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 
 int APIENTRY
-_tWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLine, int nCmdShow)
+WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
     WNDCLASS wc = { 0 };
     MSG msg;
