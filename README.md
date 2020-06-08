@@ -1,4 +1,3 @@
-[![Build status (appveyor.com)](https://img.shields.io/appveyor/ci/mity/windrawlib/master.svg?label=build)](https://ci.appveyor.com/project/mity/windrawlib/branch/master)
 
 # WinDrawLib
 
@@ -14,16 +13,11 @@ own.
 
 ## Building WinDrawLib
 
-To build WinDrawLib you need to use CMake to generate MS Visual Studio solution
-or to generate Makefile. Then build that normally using your tool chain.
+To build WinDrawLib you need to use Python invoke to create static library.
+Then build that normally using your cross compile tool chain.
 
-For example, to build with MSYS + [mingw-w64](http://mingw-w64.org) + Make:
 ```sh
-$ cd path/to/windrawlib
-$ mkdir build
-$ cd build
-$ cmake -G "MSYS Makefiles" ..
-$ make
+$ inv
 ```
 
 Static lib of WinDrawLib is built as well as few examples using the library.
