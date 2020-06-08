@@ -4,6 +4,9 @@
 The following people (in alphabetical order) have contributed to the project.
 (Please, make a pull request or let us know if you are missing in the list.)
 
+**Vitold Sedyshev** (WWW: https://github.com/vit1251)
+  * Contributed meson support.
+
 **Antonio Scuri** (WWW: https://github.com/antonioscuri)
   * Contributed stoke style support.
   * Many minor improvements and fixes.
